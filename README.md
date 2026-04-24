@@ -36,3 +36,8 @@ A basic standard library is available for `eml`:
 * `add.emlprg`: compute x+y
 
 For information on using these in your program, see the Subroutines section.
+
+## Using the linker
+EML comes with a basic linker script (named `linker.py`) that lets you include code from other files by putting an exclamation mark followed by a filepath in your program (for example, `!stdlib/ln.emlprg`).
+
+It accepts an unlimited number of arguments; each argument should be a path to a file that the linker should modify.
