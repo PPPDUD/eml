@@ -26,3 +26,5 @@ A basic standard library is available for `eml`:
 * `zero.emlprg`: set `ans` to 0
 * `epow.emlprg`: compute e^ans
 * `ln.emlprg`: compute ln(ans)
+
+For information on using these in your program, see the Subroutines section.
