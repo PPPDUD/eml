@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "master" ]
     paths:
-      - stdlib/src/*
+      - stdlib/src/*.emlprg
 
 jobs:
   build:
