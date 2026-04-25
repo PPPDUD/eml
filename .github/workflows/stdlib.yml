@@ -2,7 +2,7 @@ name: Preprocess standard library
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths:
       - stdlib/src/*.emlprg
 
