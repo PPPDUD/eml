@@ -1,0 +1,8 @@
+syntax eml "\.emlprg$"
+color lightgreen "^[^ ]* [^ ]+$"
+color lightgreen "^inv$|^round$"
+color lightgreen "^inv$|^round$"
+color lightyellow "^h$|^q$"
+color lightcyan "^set [a-zA-Z]* [^ ]+$"
+color lightred "^!.+"
+color green "^#.*"
