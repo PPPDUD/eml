@@ -16,6 +16,8 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+    - name: Checkout repo
+      uses: actions/checkout@v6
     - name: Run script
       run: ls -R && chmod +x stdlib/src/preprocess.sh && stdlib/src/preprocess.sh
     
